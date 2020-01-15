@@ -1,0 +1,12 @@
+.actions {
+  display: flex;
+
+  .buttonWrapper {
+    display: flex;
+    align-items: center;
+
+    .removeButton {
+      color: #e74c3c;
+    }
+  }
+}

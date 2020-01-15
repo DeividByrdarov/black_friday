@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a46aa05-9558-4743-9b18-473ca184768f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="black-friday" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VRtxkhRnNH9CwHB6oRDG05rvC8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/graphql/receipt" />
+      <recent name="$PROJECT_DIR$/src/pages/Admin/Users" />
+      <recent name="$PROJECT_DIR$/src/pages/Store/Products/Product" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a46aa05-9558-4743-9b18-473ca184768f" name="Default Changelist" comment="" />
+      <created>1577227984165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577227984165</updated>
+      <workItem from="1577227989539" duration="1090000" />
+      <workItem from="1577229134755" duration="20423000" />
+      <workItem from="1578033988816" duration="592000" />
+      <workItem from="1578036999173" duration="518000" />
+      <workItem from="1578037550577" duration="628000" />
+      <workItem from="1578038230593" duration="585000" />
+      <workItem from="1578050403692" duration="10309000" />
+      <workItem from="1578643253252" duration="51641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="189" key="#ESLint" timestamp="1578989833602">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="189" key="#ESLint/0.0.1680.1050/1680.-816.1920.1080@0.0.1680.1050" timestamp="1578989833602" />
+    <state x="577" y="280" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1577231326291">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="577" y="280" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577231326291" />
+    <state x="474" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578858298938">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="474" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1578858298938" />
+    <state x="653" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1578483018371">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="247" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050/1680.-816.1920.1080@0.0.1680.1050" timestamp="1578483018371" />
+    <state x="578" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577973390483">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577973390483" />
+    <state x="495" y="309" key="SettingsEditor" timestamp="1578485088198">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="495" y="309" key="SettingsEditor/0.0.1680.1050/1680.-816.1920.1080@0.0.1680.1050" timestamp="1578485088198" />
+    <state x="495" y="309" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1577243728805" />
+    <state x="503" y="147" width="674" height="756" key="find.popup" timestamp="1579091167969">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="503" y="147" width="674" height="756" key="find.popup/0.0.1680.1050/1680.-816.1920.1080@0.0.1680.1050" timestamp="1579091167969" />
+    <state x="503" y="147" width="674" height="756" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1578868275842" />
+    <state x="629" y="559" width="571" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1577234156803">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="629" y="559" width="571" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577234156803" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1579091154023">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/1680.-816.1920.1080@0.0.1680.1050" timestamp="1579091154023" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1579029106519" />
+  </component>
+</project>

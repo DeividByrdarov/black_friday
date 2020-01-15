@@ -1,0 +1,15 @@
+.title {
+  flex-grow: 1;
+}
+
+.container {
+  margin-top: 1rem;
+}
+
+.activeLink {
+  background-color: darken(#3f51b5, 10%) !important;
+}
+
+.title ~ a {
+  margin-left: 5px;
+}

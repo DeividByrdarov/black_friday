@@ -1,0 +1,22 @@
+.tableContainer {
+  max-height: 500px;
+}
+
+.tableHead {
+  background-color: #2196f3;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.addButton {
+  background-color: #2ecc71 !important;
+  color: white !important;
+
+  &:hover {
+    background-color: darken(#2ecc71, 5%) !important;
+  }
+}

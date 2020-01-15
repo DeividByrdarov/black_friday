@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+  justify-content: center;
+}
+
+.registerLink {
+  cursor: pointer;
+}

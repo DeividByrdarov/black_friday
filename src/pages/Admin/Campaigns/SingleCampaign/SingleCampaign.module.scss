@@ -1,0 +1,64 @@
+$green: #2ecc71;
+$red: #e74c3c;
+
+.wrapper {
+  margin-bottom: 2rem;
+  position: relative;
+
+  > div {
+    padding: 20px;
+    position: relative;
+  }
+}
+
+.active {
+  color: $green;
+}
+
+.inactive {
+  color: $red;
+}
+
+.addButton {
+  background-color: $green !important;
+  color: white !important;
+
+  &:hover {
+    background-color: darken($green, 10%) !important;
+  }
+}
+
+.addProduct {
+  margin-top: 20px;
+  width: 20%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 10px;
+}
+
+.actions {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 10px;
+
+  .saveButton {
+    background-color: $green;
+    color: white;
+
+    &:hover {
+      background-color: darken($green, 10%);
+    }
+  }
+
+  .deleteButton {
+    background-color: $red;
+    color: white;
+
+    &:hover {
+      background-color: darken($red, 10%);
+    }
+  }
+}

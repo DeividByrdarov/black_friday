@@ -1,0 +1,27 @@
+.cardContent {
+  display: flex;
+
+  :first-child {
+    flex: 1;
+  }
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.crossed {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translate(0, -50%);
+    height: 3px;
+    background-color: red;
+  }
+}

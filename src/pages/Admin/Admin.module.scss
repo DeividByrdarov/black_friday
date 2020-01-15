@@ -1,0 +1,16 @@
+.wrapper {
+  height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #3f51b5;
+  padding-top: 30px;
+}
+
+.navItem {
+  width: 100%;
+  padding: 10px 0 !important;
+}

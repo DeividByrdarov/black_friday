@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  grid-row-gap: 20px;
+
+  :last-child {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
