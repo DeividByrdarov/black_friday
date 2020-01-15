@@ -17,7 +17,7 @@ import store, { persistor } from "./store"
 import "./index.scss"
 
 const client = new ApolloClient({
-  uri: process.env.BACKEND_URL || "http://localhost:8080/graphql",
+  uri: process.env.REACT_APP_BACKEND_URL || "http://localhost:8080/graphql",
 })
 
 ReactDOM.render(
