@@ -1,9 +1,9 @@
-import React, { useCallback } from "react"
+import React, { useCallback, useState } from "react"
 import { useMutation } from "@apollo/react-hooks"
 import { ApolloQueryResult } from "apollo-client/core/types"
 import { Typography, TextField, Select, MenuItem, Button } from "@material-ui/core"
 
-import User from "../../../../types/User"
+import User, { Role } from "../../../../types/User"
 import classes from "./UserModal.module.scss"
 import Modal from "../../../../components/Modal/Modal"
 import Loading from "../../../../components/Loading/Loading"
@@ -23,7 +23,7 @@ const UserModal: React.FC<Props> = ({ onClose, user, refetchUsers }) => {
   const [username, setUsername] = useStateForInput(user?.username || "")
   const [password, setPassword] = useStateForInput("")
   const [repeatPassword, setRepeatPassword] = useStateForInput("")
-  const [role, setRole] = useStateForInput(user?.role || "CUSTOMER")
+  const [role, setRole] = useState(user?.role || "CUSTOMER")
 
   const [createUser, { loading: createLoading, error: createErrors }] = useMutation<createUserMutationData>(CREATE_USER_MUTATION)
   const [updateUser, { loading: updateLoading, error: updateErrors }] = useMutation<updateUserMutationData>(UPDATE_USER_MUTATION)
@@ -126,7 +126,13 @@ const UserModal: React.FC<Props> = ({ onClose, user, refetchUsers }) => {
         )}
         <div className={classes.field}>
           <Typography component="label" htmlFor="role" align="center">Role</Typography>
-          <Select onChange={setRole} value={role} name="role" id="role" variant="outlined">
+          <Select
+            onChange={(e) => setRole(() => e.target.value as Role)}
+            value={role}
+            name="role"
+            id="role"
+            variant="outlined"
+          >
             <MenuItem value="ADMIN">Admin</MenuItem>
             <MenuItem value="CUSTOMER">Customer</MenuItem>
           </Select>

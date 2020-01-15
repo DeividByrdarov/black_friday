@@ -30,7 +30,7 @@ const SingleCampaign: React.FC<Props> = ({ campaign, products, refetchCampaigns,
   const [editDescription, setEditDescription] = useState(!campaign)
   const [active, setActive] = useState(campaign?.active || false)
   const [discounts, setDiscounts] = useState<DiscountItem[]>(campaign?.items || [])
-  const [selectedProduct, setSelectedProduct, customSetSelectedProduct] = useStateForInput("")
+  const [selectedProduct, setSelectedProduct] = useState("")
 
   const [updateCampaign, { loading: updateLoading, error: updateError }] = useMutation<updateCampaignMutationData>(UPDATE_CAMPAIGN_MUTATION)
   const [createCampaign, { loading: createLoading, error: createError }] = useMutation<createCampaignMutationData>(CREATE_CAMPAIGN_MUTATION)
@@ -45,7 +45,7 @@ const SingleCampaign: React.FC<Props> = ({ campaign, products, refetchCampaigns,
     setEditDescription(!campaign)
     setActive(campaign?.active || false)
     setDiscounts(campaign?.items || [])
-    customSetSelectedProduct("")
+    setSelectedProduct("")
   }, [campaign])
 
   const handleDiscountUpdate = useCallback(({ product, discount }) => {
@@ -124,6 +124,7 @@ const SingleCampaign: React.FC<Props> = ({ campaign, products, refetchCampaigns,
     }
   }, [active, addToast, campaign, createCampaign, description, discounts, name, refetchCampaigns, updateCampaign])
 
+  // @ts-ignore
   return (
     <Container className={classes.wrapper} maxWidth="lg">
       {(createLoading || updateLoading || deleteLoading) && <Loading />}
@@ -176,7 +177,13 @@ const SingleCampaign: React.FC<Props> = ({ campaign, products, refetchCampaigns,
           <Typography onDoubleClick={() => setEditDescription(true)}>{description}</Typography>
         )}
         <div className={classes.addProduct}>
-          <Select name="product" id="product" variant="outlined" value={selectedProduct} onChange={setSelectedProduct}>
+          <Select
+            name="product"
+            id="product"
+            variant="outlined"
+            value={selectedProduct}
+            onChange={(e) => setSelectedProduct(e.target.value as string)}
+          >
             {products?.filter(product => discounts.findIndex(item => item.product.id === product.id) === -1)
               .map(product => (
                 <MenuItem value={product.id}>{product.name}</MenuItem>

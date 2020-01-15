@@ -39,7 +39,7 @@ const Campaigns: React.FC<RouteComponentProps<{ id?: string }>> = ({ history, ma
         campaign={campaign}
         products={productsData?.products!}
         clearCurrentCampaign={() => {
-          setCampaign(null)
+          setCampaign(undefined)
           setNewCampaign(false)
         }}
       />}
